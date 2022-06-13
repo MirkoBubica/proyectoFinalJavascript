@@ -23,40 +23,39 @@ const preguntas = [
     respuestaCorrecta: "B"
   },
   {
-    pregunta: "3. ¿?",
+    pregunta: "3. ¿Star Platinum es el mismo tipo del Stand que The World?",
     respuestas: {
-      A: "",
-      B: "",
-      C: ""
+      A: "Si",
+      B: "No",
     },
-    respuestaCorrecta: ""
+    respuestaCorrecta: "A"
   },
   {
-    pregunta: "4. ¿?",
+    pregunta: "4. ¿Que relacion familiar tiene Josuke con Jotaro?",
     respuestas: {
-      A: "",
-      B: "",
-      C: ""
+      A: "Hijo",
+      B: "Primo",
+      C: "Tio/Sobrino"
     },
-    respuestaCorrecta: ""
+    respuestaCorrecta: "C"
   },
   {
-    pregunta: "5. ¿?",
+    pregunta: "5. ¿Giorno Giovanna es el hijo de...?",
     respuestas: {
-      A: "",
-      B: "",
-      C: ""
+      A: "Dio Brando",
+      B: "Jotaro Kujo",
+      C: "Joseph Joestar"
     },
-    respuestaCorrecta: ""
+    respuestaCorrecta: "A"
   },
   {
-    pregunta: "6. ¿?",
+    pregunta: "6. ¿Cual es el Stand de Josuke Higashikata?",
     respuestas: {
-      A: "",
-      B: "",
-      C: ""
+      A: "Crazy Diamond",
+      B: "Killer Queen",
+      C: "Bad Company"
     },
-    respuestaCorrecta: ""
+    respuestaCorrecta: "A"
   },
 ];
 

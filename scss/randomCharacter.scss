@@ -38,6 +38,10 @@ body{
         .container-images{
           display: flex;
           justify-content:space-between;
+          .header-character-info{
+            font-weight: bold;
+            color: white;
+          }
           img{
             background-color: black;
             margin:10px;
