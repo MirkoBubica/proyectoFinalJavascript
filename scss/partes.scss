@@ -1,0 +1,116 @@
+@import"imports/tipografia";
+@import"imports/header";
+@import"imports/body";
+@import"imports/footer";
+/*SCSS*/
+body{
+  background-image:url(../imagenesProyecto/JosukePart8Fondo.webp);
+  main{
+    .titulo-header{
+      margin-top: 1vh;
+      text-align: center;
+      font-weight: 400;
+    }
+    /*Partes de Jojo*/
+    .container-all{
+      margin: 2vh 5vh;
+      div{
+        margin: 0vh 3vh;
+        padding: 5vh;
+        background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webp);
+        margin-bottom: 3vh;
+        border-radius: 2vh;
+        img{
+          float: left;
+          margin-right: 2vh;
+          margin-bottom: 1vh;
+        }
+        h2{
+          margin-bottom: 2vh ;
+          font-weight: 500;
+        }
+        p{
+          font-size: 1.9vh;
+          font-weight: 300;
+        }
+      }
+      /*Phantom Blood*/
+      .container-pb{
+        border: solid 0.3vh rgb(177, 2, 29);
+        img{
+          border: solid 0.3vh rgb(205, 0, 0);
+          width: 19vh;
+        }
+        h2{
+          color: rgb(199, 31, 137);
+          text-shadow: 0.1vh 0.1vh rgb(171, 116, 116);
+        }
+        p{
+          text-shadow: 0.1vh 0.1vh rgb(24, 1, 28);
+          color: rgb(213, 24, 153);
+        }
+      }
+      /*Battle Tendency*/
+      .container-bt{
+        border: solid 0.3vh rgb(25, 227, 2);
+        img{
+          border: solid 0.3vh rgb(0, 165, 25);
+          width: 20vh;
+        }
+        h2{
+          color: rgb(233, 244, 27);
+          text-shadow: 0.1vh 0.1vh rgb(64, 72, 36);
+        }
+        p{
+          text-shadow: 0.1vh 0.1vh rgb(24, 1, 28);
+          color: rgb(144, 205, 23);
+        }
+      }
+      /*Stardust Crusaders*/
+      .container-stc{
+        border: solid 0.3vh rgb(131, 0, 157);
+        img{
+          border: solid 0.3vh rgb(186, 0, 186);
+          width: 200px;
+        }
+        h2{
+          color: rgb(175, 0, 184);
+          text-shadow: 0.1vh 0.1vh rgb(121, 1, 145);
+        }
+        p{
+          text-shadow: 0.1vh 0.1vh rgb(24, 1, 28);
+          color: rgb(156, 0, 164);
+        }
+      }
+      /*Diamond is Ubreakable*/
+      .container-diu{
+        border: solid 0.3vh rgb(111, 30, 250);
+        img{
+          border: solid 0.3vh rgb(120, 30, 245);
+          width: 20vh;
+        }
+        h2{  color: rgb(100, 52, 244);
+          text-shadow: 0.1vh 0.1vh rgb(70, 37, 232);
+        }
+        p{  text-shadow: 0.1vh 0.1vh rgb(24, 1, 28);
+          color: rgb(111, 28, 255);
+        }
+      }
+      /*Golden Wind / Vento Aureo*/
+      .container-gw{
+        border: solid 0.3vh rgb(213, 199, 47);
+        img{  border: solid 0.3vh rgb(223, 199, 22);
+          width: 20vh;
+        }
+        h2{  color: rgb(223, 199, 22);
+          text-shadow: 0.1vh 0.1vh rgb(132, 118, 14);
+        }
+        p{  text-shadow: 0.1vh 0.1vh rgb(24, 1, 28);
+          color: rgb(191, 171, 21);
+        }
+      }
+    }
+  }
+}
+/*TERMINA SCSS*/
+@import"imports/mobile";

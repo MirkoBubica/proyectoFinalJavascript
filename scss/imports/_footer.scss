@@ -1,0 +1,23 @@
+/*IMPORT FOOTER*/
+.container-footer{
+  margin-top: auto;
+  background-size: cover;
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webp);
+  .footerList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+      margin: 2vh 2.5vh;
+      transition: 0.3s;
+      .fab{
+        width: 100%;
+        color: rgb(157, 157, 157);
+      }
+    }
+    a:hover{
+      transform: scale(1.5);
+    }
+  }
+}
+/*TERMINA IMPORT FOOTER*/

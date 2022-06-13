@@ -1,0 +1,63 @@
+@import"imports/tipografia";
+@import"imports/header";
+@import"imports/body";
+@import"imports/footer";
+
+/*SCSS*/
+body{
+  background-image:url(../imagenesProyecto/JosukePart8Fondo.webp);
+  .principal{
+    margin: 1vh;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    .quiz-container{
+      background-image: linear-gradient(to right, rgb(131, 131, 131) , #fff);
+      border: 2px #000 solid;
+      border-radius: 2vh;
+      padding: 0 1;
+    }
+    .quiz{
+      .cuestion{
+        margin: 0.5vh;
+        color: rgb(0, 0, 0);
+        font-weight: 1000;
+        font-size: 2vh;
+      }
+      .respuestas{
+        margin-bottom: 1vh;
+      }
+      padding: 1vh;
+      margin: 1vh;
+    }
+
+    .boton{
+      color: white;
+      padding:1vh;
+      margin: 1vh;
+      border:0.25vh solid;
+      border-radius: 0.5vh;
+      background-color: rgb(153, 11, 153);
+      border-color: rgb(118, 14, 118);
+    }
+    .boton:hover{
+      transition: 0.15s;
+      color: black;
+      background-color: rgb(225, 33, 225);
+      border-color: rgb(104, 17, 104);
+      transform: scale(1.03) ;
+    }
+
+    .resultado{
+      color: rgb(0, 0, 0);
+      font-weight: 1000;
+      font-size: 2.5vh;
+      text-shadow: 0px 0px 0.3vh rgb(165, 0, 146);
+    }
+  }
+}
+
+
+
+/*TERMINA SCSS*/
+@import"imports/mobile";

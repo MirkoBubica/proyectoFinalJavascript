@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+/*IMPORT HEADER*/
+.header-mobile {
+  display: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5vh 15vh;
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
+  background-size: cover;
+}
+
+header .logo {
+  margin-inline-start: 0vh;
+  margin-inline-end: 0vh;
+  height: 7vh;
+  transition: 0.2s;
+}
+
+header .logo:hover {
+  transform: scale(1.2);
+}
+
+header .navegacion a {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #1f1d1f;
+  font-size: 2vh;
+  letter-spacing: 0.15vh;
+  padding: 0.2vh 1.5vh;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 2vh;
+  border: 0.3vh solid #595959;
+  transition: 0.2s;
+}
+
+header .navegacion a:not(:last-child) {
+  margin-right: 3vh;
+}
+
+header .navegacion a:hover {
+  color: black;
+  background-color: white;
+  transform: scale(1.2);
+}
+
+/*TERMINA IMPORT HEADER*/
+/*IMPORT BODY*/
+body {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*TERMINA IMPORT BODY*/
+/*IMPORT FOOTER*/
+.container-footer {
+  margin-top: auto;
+  background-size: cover;
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webp);
+}
+
+.container-footer .footerList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-footer .footerList a {
+  margin: 2vh 2.5vh;
+  transition: 0.3s;
+}
+
+.container-footer .footerList a .fab {
+  width: 100%;
+  color: #9d9d9d;
+}
+
+.container-footer .footerList a:hover {
+  transform: scale(1.5);
+}
+
+/*TERMINA IMPORT FOOTER*/
+/*SCSS*/
+body {
+  background-image: url(../imagenesProyecto/JosukePart8Fondo.webp);
+}
+
+body main {
+  /*Partes de Jojo*/
+}
+
+body main .titulo-header {
+  margin-top: 1vh;
+  text-align: center;
+  font-weight: 400;
+}
+
+body main .container-all {
+  margin: 2vh 5vh;
+  /*Phantom Blood*/
+  /*Battle Tendency*/
+  /*Stardust Crusaders*/
+  /*Diamond is Ubreakable*/
+  /*Golden Wind / Vento Aureo*/
+}
+
+body main .container-all div {
+  margin: 0vh 3vh;
+  padding: 5vh;
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webp);
+  margin-bottom: 3vh;
+  border-radius: 2vh;
+}
+
+body main .container-all div img {
+  float: left;
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+}
+
+body main .container-all div h2 {
+  margin-bottom: 2vh;
+  font-weight: 500;
+}
+
+body main .container-all div p {
+  font-size: 1.9vh;
+  font-weight: 300;
+}
+
+body main .container-all .container-pb {
+  border: solid 0.3vh #b1021d;
+}
+
+body main .container-all .container-pb img {
+  border: solid 0.3vh #cd0000;
+  width: 19vh;
+}
+
+body main .container-all .container-pb h2 {
+  color: #c71f89;
+  text-shadow: 0.1vh 0.1vh #ab7474;
+}
+
+body main .container-all .container-pb p {
+  text-shadow: 0.1vh 0.1vh #18011c;
+  color: #d51899;
+}
+
+body main .container-all .container-bt {
+  border: solid 0.3vh #19e302;
+}
+
+body main .container-all .container-bt img {
+  border: solid 0.3vh #00a519;
+  width: 20vh;
+}
+
+body main .container-all .container-bt h2 {
+  color: #e9f41b;
+  text-shadow: 0.1vh 0.1vh #404824;
+}
+
+body main .container-all .container-bt p {
+  text-shadow: 0.1vh 0.1vh #18011c;
+  color: #90cd17;
+}
+
+body main .container-all .container-stc {
+  border: solid 0.3vh #83009d;
+}
+
+body main .container-all .container-stc img {
+  border: solid 0.3vh #ba00ba;
+  width: 200px;
+}
+
+body main .container-all .container-stc h2 {
+  color: #af00b8;
+  text-shadow: 0.1vh 0.1vh #790191;
+}
+
+body main .container-all .container-stc p {
+  text-shadow: 0.1vh 0.1vh #18011c;
+  color: #9c00a4;
+}
+
+body main .container-all .container-diu {
+  border: solid 0.3vh #6f1efa;
+}
+
+body main .container-all .container-diu img {
+  border: solid 0.3vh #781ef5;
+  width: 20vh;
+}
+
+body main .container-all .container-diu h2 {
+  color: #6434f4;
+  text-shadow: 0.1vh 0.1vh #4625e8;
+}
+
+body main .container-all .container-diu p {
+  text-shadow: 0.1vh 0.1vh #18011c;
+  color: #6f1cff;
+}
+
+body main .container-all .container-gw {
+  border: solid 0.3vh #d5c72f;
+}
+
+body main .container-all .container-gw img {
+  border: solid 0.3vh #dfc716;
+  width: 20vh;
+}
+
+body main .container-all .container-gw h2 {
+  color: #dfc716;
+  text-shadow: 0.1vh 0.1vh #84760e;
+}
+
+body main .container-all .container-gw p {
+  text-shadow: 0.1vh 0.1vh #18011c;
+  color: #bfab15;
+}
+
+/*TERMINA SCSS*/
+/*Mobile*/
+@media only screen and (max-width: 800px) {
+  /*Header*/
+  .header-desktop {
+    display: none;
+  }
+  .header-mobile {
+    display: flex;
+    padding: 1vh;
+  }
+  .header-mobile .logo:hover {
+    transform: scale(1);
+  }
+  .header-mobile .navegacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-mobile .navegacion a {
+    margin: 1vh 3vh 0.2vh 0vh;
+  }
+  .header-mobile div .pos-f-t {
+    background-color: transparent;
+  }
+  .header-mobile div .pos-f-t .navbar .navbar-toggler {
+    background-color: #171717;
+  }
+  /*Footer*/
+  .container-footer .footerList a:hover {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,80 @@
+@import"imports/tipografia";
+@import"imports/header";
+@import"imports/body";
+@import"imports/footer";
+/*SCSS*/
+body {
+  background-image:url(../imagenesProyecto/AllJojosFondo.webp);
+  .main-container{
+    .container-jojos{
+      margin: 5vw;
+      div{
+        margin: 3vh 7vh;
+        padding:1vh;
+        background-image: url(../imagenesProyecto/JojoPatternBackgroundGray.webp);
+        border: solid 0.4vh;
+        border-radius:1vh;
+        text-align: center;
+        background-size: cover;
+        h2{
+          font-weight: 700;
+          color: rgb(198, 6, 198);
+          text-shadow: 0 0 3px #8100ac, 0 0 5px #7e0396;
+        }
+        img{
+          max-width: 17vh;
+          float:right;
+          border-radius: 20px;
+          border: 2px solid rgb(108, 8, 109);
+          margin: 1vh;
+        }
+        p{
+          margin: 1.5vh;
+          font-weight: 600;
+          color: rgb(196, 196, 196);
+          text-shadow: 0 0 2px #000000;
+          font-size:2vh;
+        }
+      }
+      .joseph{
+        h2{
+          color: rgb(0, 147, 34);
+          text-shadow: 0 0 3px #26ff04, 0 0 5px #13e679;
+        }
+        img{
+          border-color: rgb(2, 171, 2);
+        }
+      }
+      .jotaro{
+        h2{
+          color: rgb(75, 0, 167);
+          text-shadow: 0 0 3px #130846, 0 0 5px #110248;
+        }
+        img{
+          border-color: rgb(94, 1, 160);
+        }
+      }
+      .josuke{
+        h2{
+          color: rgb(43, 12, 240);
+          text-shadow: 0 0 3px #0d0630, 0 0 5px #0e013e;
+        }
+        img{
+          border-color: rgb(35, 1, 160);
+        }
+      }
+      .giorno{
+        h2{
+          color: rgb(227, 210, 26);
+          text-shadow: 0 0 3px #e5f71a, 0 0 5px #b3b329;
+        }
+        img{
+          border-color: rgb(225, 181, 4);
+        }
+      }
+    }
+  }
+}
+/*TERMINA SCSS*/
+
+@import"imports/mobile";

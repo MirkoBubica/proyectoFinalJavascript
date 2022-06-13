@@ -1,0 +1,36 @@
+@import"imports/tipografia";
+@import"imports/header";
+@import"imports/body";
+@import"imports/footer";
+
+/*SCSS*/
+body{
+  background-image:url(../imagenesProyecto/jojoFondoVuelta.webp);
+  .principal{
+    .carrusel{
+      background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webp);
+      background-attachment: fixed;
+      background-size: cover;
+      border: black solid 0.2vh;
+      padding:2vh;
+      margin: 1vh;
+      max-width: 100vh;
+      .carousel-inner{
+        border: 0.2vh solid black;
+      }
+    }
+    .info{
+      font-family: 'Poppins', sans-serif;
+      padding:2vh;
+      p{
+        text-align: left;
+      font-size: 2.5vh;
+      font-weight: bold;
+      color: rgb(123, 14, 123);
+      text-shadow: 0.1vh 0.2vh black;
+      }
+    }
+  }
+}
+/*TERMINA SCSS*/
+@import"imports/mobile";

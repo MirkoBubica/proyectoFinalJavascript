@@ -1,0 +1,36 @@
+/*Mobile*/
+@media only screen and (max-width:800px){
+    /*Header*/
+    .header-desktop{
+      display: none;
+    }
+    .header-mobile{
+         display: flex;
+         padding:1vh;
+        .logo:hover{
+            transform: scale(1)
+        }
+        .navegacion{
+            display: flex;
+            flex-direction:column;
+            a{
+                margin: 1vh 3vh 0.2vh 0vh;
+            }
+    }
+
+        div{
+            .pos-f-t{
+                background-color: transparent;
+                .navbar{
+                    .navbar-toggler{
+                        background-color:rgb(23, 23, 23);
+                    }
+                }
+            }
+        }
+    }
+  /*Footer*/
+  .container-footer .footerList a:hover{
+      transform: scale(1);
+  }
+}

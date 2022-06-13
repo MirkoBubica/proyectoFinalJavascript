@@ -1,0 +1,75 @@
+@import"imports/tipografia";
+@import"imports/header";
+@import"imports/body";
+@import"imports/footer";
+
+/*SCSS*/
+body{
+  background-image:url(../imagenesProyecto/JosukePart8Fondo.webp);
+  main{
+    display: flex;
+    justify-content:center;
+    padding-top:2vh;
+
+    .principal{
+      margin: 1vh;
+      padding: 1vh;
+      height: auto;
+      border: 2px solid black;
+      border-radius:1vh;
+      text-align: center;
+      background-image: linear-gradient(to right, rgb(141, 0, 89) , rgb(46, 46, 46));
+      }
+      .character{
+        .container-chara-info{
+          color: white;
+          .user{
+            font-weight: bold;
+            margin-bottom:1vh;
+          }
+          .stand{
+            margin-bottom: 1vh;
+          }
+          .stand-type{
+            margin-bottom: 1vh;
+          }
+
+        }
+        .container-images{
+          display: flex;
+          justify-content:space-between;
+          img{
+            background-color: black;
+            margin:10px;
+            margin-bottom:20px;
+            max-width: 25vh;
+            border: 1px solid white;
+            border-radius:2vh;
+          }
+        }
+      }
+
+      button{
+        color: white;
+        padding:1vh;
+        margin: 2vh;
+        border:0.25vh solid;
+        border-radius: 0.5vh;
+        background-color: rgb(153, 11, 153);
+        border-color: rgb(118, 14, 118);
+      }
+      button:hover{
+        transition: 0.15s;
+        color: black;
+        background-color: rgb(225, 33, 225);
+        border-color: rgb(104, 17, 104);
+        transform: scale(1.03) ;
+    }
+  }
+}
+
+
+
+
+/*TERMINA SCSS*/
+@import"imports/mobile";

@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+/*IMPORT HEADER*/
+.header-mobile {
+  display: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5vh 15vh;
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
+  background-size: cover;
+}
+
+header .logo {
+  margin-inline-start: 0vh;
+  margin-inline-end: 0vh;
+  height: 7vh;
+  transition: 0.2s;
+}
+
+header .logo:hover {
+  transform: scale(1.2);
+}
+
+header .navegacion a {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #1f1d1f;
+  font-size: 2vh;
+  letter-spacing: 0.15vh;
+  padding: 0.2vh 1.5vh;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 2vh;
+  border: 0.3vh solid #595959;
+  transition: 0.2s;
+}
+
+header .navegacion a:not(:last-child) {
+  margin-right: 3vh;
+}
+
+header .navegacion a:hover {
+  color: black;
+  background-color: white;
+  transform: scale(1.2);
+}
+
+/*TERMINA IMPORT HEADER*/
+/*IMPORT BODY*/
+body {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*TERMINA IMPORT BODY*/
+/*IMPORT FOOTER*/
+.container-footer {
+  margin-top: auto;
+  background-size: cover;
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webp);
+}
+
+.container-footer .footerList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-footer .footerList a {
+  margin: 2vh 2.5vh;
+  transition: 0.3s;
+}
+
+.container-footer .footerList a .fab {
+  width: 100%;
+  color: #9d9d9d;
+}
+
+.container-footer .footerList a:hover {
+  transform: scale(1.5);
+}
+
+/*TERMINA IMPORT FOOTER*/
+/*SCSS*/
+body {
+  background-image: url(../imagenesProyecto/JosukePart8Fondo.webp);
+}
+
+body main {
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+}
+
+body main .principal {
+  margin: 1vh;
+  padding: 1vh;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 1vh;
+  text-align: center;
+  background-image: linear-gradient(to right, #8d0059, #2e2e2e);
+}
+
+body main .character .container-chara-info {
+  color: white;
+}
+
+body main .character .container-chara-info .user {
+  font-weight: bold;
+  margin-bottom: 1vh;
+}
+
+body main .character .container-chara-info .stand {
+  margin-bottom: 1vh;
+}
+
+body main .character .container-chara-info .stand-type {
+  margin-bottom: 1vh;
+}
+
+body main .character .container-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+body main .character .container-images img {
+  background-color: black;
+  margin: 10px;
+  margin-bottom: 20px;
+  max-width: 25vh;
+  border: 1px solid white;
+  border-radius: 2vh;
+}
+
+body main button {
+  color: white;
+  padding: 1vh;
+  margin: 2vh;
+  border: 0.25vh solid;
+  border-radius: 0.5vh;
+  background-color: #990b99;
+  border-color: #760e76;
+}
+
+body main button:hover {
+  transition: 0.15s;
+  color: black;
+  background-color: #e121e1;
+  border-color: #681168;
+  transform: scale(1.03);
+}
+
+/*TERMINA SCSS*/
+/*Mobile*/
+@media only screen and (max-width: 800px) {
+  /*Header*/
+  .header-desktop {
+    display: none;
+  }
+  .header-mobile {
+    display: flex;
+    padding: 1vh;
+  }
+  .header-mobile .logo:hover {
+    transform: scale(1);
+  }
+  .header-mobile .navegacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-mobile .navegacion a {
+    margin: 1vh 3vh 0.2vh 0vh;
+  }
+  .header-mobile div .pos-f-t {
+    background-color: transparent;
+  }
+  .header-mobile div .pos-f-t .navbar .navbar-toggler {
+    background-color: #171717;
+  }
+  /*Footer*/
+  .container-footer .footerList a:hover {
+    transform: scale(1);
+  }
+}
